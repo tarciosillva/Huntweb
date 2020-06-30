@@ -1,68 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ReactJS
 
-## Available Scripts
+## Criação: 30 de Junho de 2020
+## Prática : @tarciosillva
 
-In the project directory, you can run:
+## Readme modelo em: https://github.com/douglasabnovato
 
-### `yarn start`
+![Rocketseat](/images/logo-rocketseat.png)
+![Git](/images/logo-git.png)
+![GitHub](/images/logo-github.png)
+![React JS](/images/logo-reactjs.jpg)
+![HTML-CSS-JS](/images/logo-html-css-js.jpeg)
+![VSCode](/images/logo-VSCode.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Aula 1 : O que é ReactJS ?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- ReactJS biblioteca JS para construir o Frontend
+- Acessar API Rest
+- Roteamento
+- Componentes
+- Estados e Propriedades
 
-### `yarn test`
+### Aula 2 : Criando Projeto
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Comandos:
 
-### `yarn build`
+1. `node -v`
+2. `npm -v`
+3. `yarn -v`
+4. `create-react-app huntweb`
+5. `cd huntweb`
+6. `code .`
+7. `npm start`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Aula 3 : O que são componentes ?
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- conceito de componentização: conjuntos isolados de lógica (Javascript), visualização (JSX/HTML) e possível estilização (CSS).
+- react
+- react-dom 
+- método do componente: render
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Aula 4 : Criando Header ?
 
-### `yarn eject`
+- na pasta `src/components/Header` então criar todos arquivos desse componente: index.js, styles.css.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Aula 5 : Buscando produtos da API 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- acessar API nodejs-api: essa API fornece o dados dos produtos.
+- `https://rocketseat-node.herokuapp.com/api`
+- biblioteca axios: `yarn add axios`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Aula 6 : Armazenamento no estado
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- objeto `estado`
+- trabalhar com variável estado
 
-## Learn More
+### Aula 7 : Listando produtos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- estilizando a exibição dos produtos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Aula 8 : Páginas anterior / próxima
 
-### Code Splitting
+- listar os detalhes dos produtos
+- fazer listagem das páginas 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Aula 9 : Configurando Navegação
 
-### Analyzing the Bundle Size
+1. `yarn add react-router-dom` : trabalhando com rotas
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Aula 10 : Navegando para o detalhe
 
-### Making a Progressive Web App
+- Listando o detalhe de cada produto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Tópicos observados no projeto:
+- componentização
+- roteamento
+- ciclos de vida
+- utilização de API
+- estado
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+:. Do curso `ReactJS` da Rocketseat - Starter. <br>
+Por Diego Fernandes : https://station.rocketseat.com.br/courses/starter
